@@ -2,12 +2,13 @@
 import HeaderApp from "./components/Header-App.vue";
 import DialogueList from "./components/Dialogue-List.vue";
 import PlaceForMessage from "./components/Place-For-Message.vue";
-import SearchUser from './components/Search-User.vue'
+import SearchUser from "./components/Search-User.vue";
+import Registration from "./views/Registration.vue";
 </script>
 
 <template>
   <div class="wrapper">
-          <SearchUser></SearchUser>
+    <SearchUser></SearchUser>
     <div class="container">
       <HeaderApp></HeaderApp>
       <DialogueList></DialogueList>
@@ -25,13 +26,17 @@ h5,
 h6,
 a,
 p,
-span {
+span,
+li {
   color: #fff;
   text-decoration: none;
 }
 
-.ul,li{
+.ul,
+li {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 body {
